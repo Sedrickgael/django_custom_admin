@@ -72,7 +72,8 @@ class Nom_modelAdmin(admin.ModelAdmin):
 
 # fildsets nous permet de grouper les champs pour les affichés sous forme de session lors de l'enregistrement 
   fieldsets = [
-          ('Nom', {'fields': ['repectoire', 'role']}),
+          ('Nom', {'fields': ['repectoire', 'role']})
+          ],
 
 
   
