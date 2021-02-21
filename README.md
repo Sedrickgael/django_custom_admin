@@ -89,4 +89,11 @@ class ModelInLine(admin.TabularInline):
     model = models.Model
     extra = 0
 
+
+
+def _register(model, admin_class):
+    admin.site.register(model, admin_class)
+
+
+_register(models.Model, ModelAdmin)
 ```
